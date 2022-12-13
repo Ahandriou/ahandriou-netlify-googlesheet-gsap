@@ -1,0 +1,57 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+ 
+ body{
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+ }
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.contenu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contenu h1{
+    margin-bottom: 0;
+}
+
+.contenu h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.contenu img {
+    /* margin-top: 20px; */
+    width: 180px;
+    height: 180px;
+    /* opacity: 0; */
+}
+
+.girl {
+    background-color: lightpink;
+}
+
+.boy {
+    background-color: lightblue;
+}
