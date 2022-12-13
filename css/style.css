@@ -19,6 +19,12 @@
     /* align-items: center; */
 }
 
+.title{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 .contenu {
     text-align: center;
     display: flex;
